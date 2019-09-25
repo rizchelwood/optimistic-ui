@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  background: #fbfbfb;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+}
+
+.list {
+  display: flex;
+  padding: 1rem;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list-item {
+  background: #fff;
+  margin: 0 1rem 1rem 0;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 2px rgba(46, 41, 51, 0.08),
+    0px 2px 4px rgba(71, 63, 79, 0.08);
+  border-radius: 0.25rem;
+  max-width: 15rem;
+  list-style: none;
+}
+
+.img {
+  width: 100%;
+  height: 14rem;
+}
+
+.details {
+  padding: 0.5rem 1rem;
+}
